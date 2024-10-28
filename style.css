@@ -367,6 +367,12 @@ h3{
     font-size: 15px;
     color: #777;
 }
+.project-box a{
+    font-size: 15px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
 .project-box::after, .contact-info::after{
     content: "";
     position: absolute;
@@ -384,12 +390,13 @@ h3{
 }
 .project-box:hover.project-box i,
 .project-box:hover.project-box>h3,
-.project-box:hover.project-box>label, a{
-    color: var(--color-white);
+.project-box:hover.project-box>label,
+.project-box:hover.project-box>a{
+    color: white;
     z-index: 2;
+    text-decoration: none;
     
 }
-
 
 .contact-info{
     position: relative;
